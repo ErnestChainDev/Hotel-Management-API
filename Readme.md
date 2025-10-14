@@ -386,11 +386,6 @@ MongoDB Connected: cluster0-xxxxx.mongodb.net
 <h4>1️⃣ Get All Rooms</h4>
 <pre>
 GET http://localhost:3000/api/rooms
-</pre>
-
-<h4>2️⃣ Create a New Room</h4>
-<pre>
-POST http://localhost:3000/api/rooms
 Content-Type: application/json
 
 {
@@ -535,9 +530,152 @@ Content-Type: application/json
 }
 </pre>
 
-<h4>3️⃣ Check Room Availability</h4>
+<h4>2️⃣ Get All Guests</h4>
 <pre>
-GET http://localhost:3000/api/rooms/available?checkIn=2025-10-20&checkOut=2025-10-25&type=suite
+GET http://localhost:3000/api/guests
+Content-Type: application/json
+
+{
+    "success": true,
+    "count": 5,
+    "total": 5,
+    "page": 1,
+    "pages": 1,
+    "data": [
+        {
+            "_id": "68ec991578eee54435e342e5",
+            "name": "Jane Smith",
+            "email": "jane.smith@email.com",
+            "phone": "+1234567891",
+            "address": "456 Oak Ave, Los Angeles",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.213Z",
+            "updatedAt": "2025-10-13T06:15:49.213Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342e4",
+            "name": "John Doe",
+            "email": "john.doe@email.com",
+            "phone": "+1234567890",
+            "address": "123 Main St, New York",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.213Z",
+            "updatedAt": "2025-10-13T06:15:49.213Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342e8",
+            "name": "Charlie Brown",
+            "email": "charlie.brown@email.com",
+            "phone": "+1234567894",
+            "address": "654 Maple Dr, Phoenix",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.213Z",
+            "updatedAt": "2025-10-13T06:15:49.213Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342e6",
+            "name": "Bob Johnson",
+            "email": "bob.johnson@email.com",
+            "phone": "+1234567892",
+            "address": "789 Pine Rd, Chicago",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.213Z",
+            "updatedAt": "2025-10-13T06:15:49.213Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342e7",
+            "name": "Alice Williams",
+            "email": "alice.williams@email.com",
+            "phone": "+1234567893",
+            "address": "321 Elm St, Houston",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.213Z",
+            "updatedAt": "2025-10-13T06:15:49.213Z"
+        }
+    ]
+}
+</pre>
+
+<h4>3️⃣ Get All Bookings</h4>
+<pre>
+GET http://localhost:3000/api/bookings
+Content-Type: application/json
+{
+    "success": true,
+    "count": 3,
+    "total": 3,
+    "page": 1,
+    "pages": 1,
+    "data": [
+        {
+            "_id": "68ec991578eee54435e342ed",
+            "guestId": {
+                "_id": "68ec991578eee54435e342e6",
+                "name": "Bob Johnson",
+                "email": "bob.johnson@email.com",
+                "phone": "+1234567892"
+            },
+            "roomId": {
+                "_id": "68ec991578eee54435e342db",
+                "number": "101",
+                "type": "single",
+                "price": 100
+            },
+            "checkIn": "2025-10-18T06:15:49.269Z",
+            "checkOut": "2025-10-21T06:15:49.269Z",
+            "status": "pending",
+            "totalPrice": 300,
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.271Z",
+            "updatedAt": "2025-10-13T06:15:49.271Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342ec",
+            "guestId": {
+                "_id": "68ec991578eee54435e342e5",
+                "name": "Jane Smith",
+                "email": "jane.smith@email.com",
+                "phone": "+1234567891"
+            },
+            "roomId": {
+                "_id": "68ec991578eee54435e342dd",
+                "number": "103",
+                "type": "suite",
+                "price": 300
+            },
+            "checkIn": "2025-10-14T06:15:49.269Z",
+            "checkOut": "2025-10-17T06:15:49.269Z",
+            "status": "confirmed",
+            "totalPrice": 900,
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.271Z",
+            "updatedAt": "2025-10-13T06:15:49.271Z"
+        },
+        {
+            "_id": "68ec991578eee54435e342eb",
+            "guestId": {
+                "_id": "68ec991578eee54435e342e4",
+                "name": "John Doe",
+                "email": "john.doe@email.com",
+                "phone": "+1234567890"
+            },
+            "roomId": {
+                "_id": "68ec991578eee54435e342df",
+                "number": "202",
+                "type": "double",
+                "price": 150
+            },
+            "checkIn": "2025-10-13T06:15:49.269Z",
+            "checkOut": "2025-10-20T06:15:49.269Z",
+            "status": "checked-in",
+            "totalPrice": 1050,
+            "notes": "Early check-in requested",
+            "__v": 0,
+            "createdAt": "2025-10-13T06:15:49.271Z",
+            "updatedAt": "2025-10-13T06:15:49.271Z"
+        }
+    ]
+}
 </pre>
 
 <h4>4️⃣ Create a New Guest</h4>
