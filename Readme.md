@@ -731,28 +731,14 @@ Content-Type: application/json
 <pre>
 POST http://localhost:3000/api/bookings
 Content-Type: application/json
-
+<img src="./image/Screenshot 2025-10-15 163003.png" alt="Create Booking" >
 {
-    "_id": "68ec991578eee54435e342ed",
-    "guestId": {
-        "_id": "68ec991578eee54435e342e6",
-        "name": "Bob Johnson",
-        "email": "bob.johnson@email.com",
-        "phone": "+1234567892"
-    },
-    "roomId": {
-        "_id": "68ec991578eee54435e342db",
-        "number": "101",
-        "type": "single",
-        "price": 100
-    },
-    "checkIn": "2025-10-18T06:15:49.269Z",
-    "checkOut": "2025-10-21T06:15:49.269Z",
-    "status": "pending",
-    "totalPrice": 300,
-    "__v": 0,
-    "createdAt": "2025-10-13T06:15:49.271Z",
-    "updatedAt": "2025-10-13T06:15:49.271Z"
+  "guestId": "68ef58fde1e20fb1c6b9d744",
+  "roomId": "68ef177c0c0116a8e9cd0bdf",
+  "checkIn": "2025-10-20",
+  "checkOut": "2025-10-25",
+  "status": "confirmed",
+  "notes": "Guest requested a room with ocean view if possible"
 }
 </pre>
 
