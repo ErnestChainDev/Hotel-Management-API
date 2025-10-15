@@ -718,6 +718,14 @@ Content-Type: application/json
 <img src="./image/update name.png" alt="update name by id">
 </pre>
 
+<h4>Delete guest by id</h4>
+<pre>
+DELETE http://localhost:3000/api/guests/:id
+Content-Type: application/json
+
+<img src="./image/Screenshot 2025-10-15 114420.png" alt="update name by id">
+</pre>
+
 
 <h4>5️⃣ Create a Booking</h4>
 <pre>
