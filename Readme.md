@@ -67,7 +67,7 @@ hotel-management-api/
 │   │   └── bookings.js          # Booking route definitions
 │   ├── middleware/
 │   │   └── errorHandler.js      # Global error handling
-│   └── app.js                # Application entry point
+│   └── server.js                # Application entry point
 ├── scripts/
 │   └── seed.js                  # Database seeding script
 ├── .env                         # Environment variables (DO NOT COMMIT)
@@ -530,11 +530,20 @@ Content-Type: application/json
 }
 </pre>
 
+<h4> Get Available Rooms</h4>
+<pre>
+GET http://localhost:3000/api/rooms/available?checkIn=2025-10-13&checkOut=2025-10-20
+
+<img src="./image/Get available rooms.png" alt="available rooms">
+
+</pre>
+
 <h4>2️⃣ Get All Guests</h4>
 <pre>
 GET http://localhost:3000/api/guests
 Content-Type: application/json
 
+<img src="./image/get all guest.png" alt="guests">
 {
     "success": true,
     "count": 5,
@@ -683,13 +692,32 @@ Content-Type: application/json
 POST http://localhost:3000/api/guests
 Content-Type: application/json
 
+<img src="./image/create guest.png" alt="create a new guest">
+
 {
-  "name": "Sarah Connor",
-  "email": "sarah.connor@email.com",
-  "phone": "+1234567895",
-  "address": "123 Tech Street, San Francisco"
+  "name": "Ernest Windel Dreo",
+  "email": "ernestwindeldreo@email.com",
+  "phone": "+639 999999999",
+  "address": "Manlabong, Prieto-Diaz"
 }
 </pre>
+
+<h4>Get guest by id</h4>
+<pre>
+GET http://localhost:3000/api/guests/:id
+Content-Type: application/json
+
+<img src="./image/get guest by id.png" alt="get guest by id">
+</pre>
+
+<h4>Update name by id</h4>
+<pre>
+PUT http://localhost:3000/api/guests/:id
+Content-Type: application/json
+
+<img src="./image/update name.png" alt="update name by id">
+</pre>
+
 
 <h4>5️⃣ Create a Booking</h4>
 <pre>
