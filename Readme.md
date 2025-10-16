@@ -396,8 +396,8 @@ Content-Type: application/json
     "pages": 1,
     "data": [
         {
-            "_id": "68ec991578eee54435e342db",
-            "number": "101",
+            "_id": "68ef177c0c0116a8e9cd0bd9",
+            "number": "21",
             "type": "single",
             "price": 100,
             "status": "available",
@@ -407,12 +407,12 @@ Content-Type: application/json
             ],
             "capacity": 1,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.151Z",
-            "updatedAt": "2025-10-13T06:15:49.151Z"
+            "createdAt": "2025-10-15T03:39:40.571Z",
+            "updatedAt": "2025-10-15T03:39:40.571Z"
         },
         {
-            "_id": "68ec991578eee54435e342dc",
-            "number": "102",
+            "_id": "68ef177c0c0116a8e9cd0bda",
+            "number": "22",
             "type": "double",
             "price": 150,
             "status": "available",
@@ -423,12 +423,12 @@ Content-Type: application/json
             ],
             "capacity": 2,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.152Z",
-            "updatedAt": "2025-10-13T06:15:49.152Z"
+            "createdAt": "2025-10-15T03:39:40.572Z",
+            "updatedAt": "2025-10-15T03:39:40.572Z"
         },
         {
-            "_id": "68ec991578eee54435e342dd",
-            "number": "103",
+            "_id": "68ef177c0c0116a8e9cd0bdb",
+            "number": "23",
             "type": "suite",
             "price": 300,
             "status": "available",
@@ -440,12 +440,12 @@ Content-Type: application/json
             ],
             "capacity": 4,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         },
         {
-            "_id": "68ec991578eee54435e342de",
-            "number": "201",
+            "_id": "68ef177c0c0116a8e9cd0bdc",
+            "number": "31",
             "type": "single",
             "price": 100,
             "status": "available",
@@ -455,12 +455,12 @@ Content-Type: application/json
             ],
             "capacity": 1,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         },
         {
-            "_id": "68ec991578eee54435e342df",
-            "number": "202",
+            "_id": "68ef177c0c0116a8e9cd0bdd",
+            "number": "32",
             "type": "double",
             "price": 150,
             "status": "occupied",
@@ -471,12 +471,12 @@ Content-Type: application/json
             ],
             "capacity": 2,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         },
         {
-            "_id": "68ec991578eee54435e342e0",
-            "number": "203",
+            "_id": "68ef177c0c0116a8e9cd0bde",
+            "number": "33",
             "type": "deluxe",
             "price": 250,
             "status": "available",
@@ -488,12 +488,12 @@ Content-Type: application/json
             ],
             "capacity": 3,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         },
         {
-            "_id": "68ec991578eee54435e342e1",
-            "number": "301",
+            "_id": "68ef177c0c0116a8e9cd0bdf",
+            "number": "34",
             "type": "suite",
             "price": 350,
             "status": "available",
@@ -506,12 +506,12 @@ Content-Type: application/json
             ],
             "capacity": 4,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         },
         {
-            "_id": "68ec991578eee54435e342e2",
-            "number": "302",
+            "_id": "68ef177c0c0116a8e9cd0be0",
+            "number": "35",
             "type": "deluxe",
             "price": 250,
             "status": "maintenance",
@@ -523,8 +523,8 @@ Content-Type: application/json
             ],
             "capacity": 3,
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.153Z",
-            "updatedAt": "2025-10-13T06:15:49.153Z"
+            "createdAt": "2025-10-15T03:39:40.573Z",
+            "updatedAt": "2025-10-15T03:39:40.573Z"
         }
     ]
 }
@@ -552,57 +552,58 @@ Content-Type: application/json
     "pages": 1,
     "data": [
         {
-            "_id": "68ec991578eee54435e342e5",
-            "name": "Jane Smith",
-            "email": "jane.smith@email.com",
-            "phone": "+1234567891",
-            "address": "456 Oak Ave, Los Angeles",
-            "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.213Z",
-            "updatedAt": "2025-10-13T06:15:49.213Z"
+            "_id": "68ef58fde1e20fb1c6b9d744",
+            "name": "Ernest Windel Dreo",
+            "email": "ernestwindeldreo@email.com",
+            "phone": "+639 999999999",
+            "address": "Manlabong, Prieto-Diaz",
+            "createdAt": "2025-10-15T08:19:09.160Z",
+            "updatedAt": "2025-10-15T08:19:09.160Z",
+            "__v": 0
         },
         {
-            "_id": "68ec991578eee54435e342e4",
-            "name": "John Doe",
-            "email": "john.doe@email.com",
+            "_id": "68ef177c0c0116a8e9cd0be2",
+            "name": "Juan Bausti",
+            "email": "juan.bausti@email.com",
             "phone": "+1234567890",
             "address": "123 Main St, New York",
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.213Z",
-            "updatedAt": "2025-10-13T06:15:49.213Z"
+            "createdAt": "2025-10-15T03:39:40.622Z",
+            "updatedAt": "2025-10-15T03:39:40.622Z"
         },
         {
-            "_id": "68ec991578eee54435e342e8",
-            "name": "Charlie Brown",
-            "email": "charlie.brown@email.com",
-            "phone": "+1234567894",
-            "address": "654 Maple Dr, Phoenix",
+            "_id": "68ef177c0c0116a8e9cd0be3",
+            "name": "Jane Yap",
+            "email": "jane.yap@email.com",
+            "phone": "+1234567891",
+            "address": "456 Oak Ave, Los Angeles",
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.213Z",
-            "updatedAt": "2025-10-13T06:15:49.213Z"
+            "createdAt": "2025-10-15T03:39:40.622Z",
+            "updatedAt": "2025-10-15T03:39:40.622Z"
         },
         {
-            "_id": "68ec991578eee54435e342e6",
-            "name": "Bob Johnson",
-            "email": "bob.johnson@email.com",
+            "_id": "68ef177c0c0116a8e9cd0be4",
+            "name": "Bob Ong",
+            "email": "bob.ong@email.com",
             "phone": "+1234567892",
             "address": "789 Pine Rd, Chicago",
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.213Z",
-            "updatedAt": "2025-10-13T06:15:49.213Z"
+            "createdAt": "2025-10-15T03:39:40.622Z",
+            "updatedAt": "2025-10-15T03:39:40.622Z"
         },
         {
-            "_id": "68ec991578eee54435e342e7",
-            "name": "Alice Williams",
-            "email": "alice.williams@email.com",
+            "_id": "68ef177c0c0116a8e9cd0be5",
+            "name": "Alice Wis",
+            "email": "alice.wis@email.com",
             "phone": "+1234567893",
             "address": "321 Elm St, Houston",
             "__v": 0,
-            "createdAt": "2025-10-13T06:15:49.213Z",
-            "updatedAt": "2025-10-13T06:15:49.213Z"
+            "createdAt": "2025-10-15T03:39:40.622Z",
+            "updatedAt": "2025-10-15T03:39:40.622Z"
         }
     ]
-}
+}    
+ 
 </pre>
 
 <h4>3️⃣ Get All Bookings</h4>
