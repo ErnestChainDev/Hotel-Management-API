@@ -67,7 +67,7 @@ hotel-management-api/
 │   │   └── bookings.js          # Booking route definitions
 │   ├── middleware/
 │   │   └── errorHandler.js      # Global error handling
-│   └── server.js                # Application entry point
+│   └── app.js                # Application entry point
 ├── scripts/
 │   └── seed.js                  # Database seeding script
 ├── .env                         # Environment variables (DO NOT COMMIT)
